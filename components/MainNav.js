@@ -63,7 +63,7 @@ export default function MainNav(){
               <Form className="d-flex" onSubmit={handleSearchSubmit}>
                 <FormControl
                   type="search"
-                  placeholder="Search"
+                  placeholder="Search by title"
                   className="mr-2"
                   aria-label="Search"
                   value={searchMovie}
