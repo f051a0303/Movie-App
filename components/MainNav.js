@@ -15,10 +15,12 @@ export default function MainNav(){
     e.preventDefault();
     console.log(searchMovie);
     let title = searchMovie;
-    title = title.replace(/  +/g, " "); // replace multi spaces with one space
-    title = title.trim(); // remove leading and trailing space
-    title = title.toLowerCase(); // make all the character to lower case
-    const strArr = title.split(" ") //split the string by spaces
+    // title = title.replace(/  +/g, " "); // replace multi spaces with one space
+    // title = title.trim(); // remove leading and trailing space
+    // title = title.toLowerCase(); // make all the character to lower case
+    // const strArr = title.split(" ") //split the string by spaces
+    title = title.replace(/  +/g, " ").trim().toLowerCase()
+    const strArr = title.split(" ")
     for (let i = 0; i < strArr.length; ++i){
       strArr[i] = strArr[i].charAt(0).toUpperCase() + strArr[i].slice(1); // make the first character of every word uppercase to avoid case sensetive
     }
