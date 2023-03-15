@@ -15,7 +15,7 @@ export default function Home() {
   // useState value
   const [page, setPage] = useState(1);
   const [pageData, setPageData] = useState([]);
-  const {data, error} = useSWR(`https://delightful-ant-waistcoat.cyclic.app/api/movies/?page=${page}&perPage=10`);
+  const {data, error} = useSWR(`https://puzzled-pink-snapper.cyclic.app/api/movies/?page=${page}&perPage=10`);
   
   useEffect(()=>{
     if(data){

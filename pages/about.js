@@ -9,7 +9,7 @@ export function getStaticProps(){
     var movieId = "573a139bf29313caabcf3d23";  // The matrix
     
     return new Promise((resolve, reject)=>{
-        fetch(`https://delightful-ant-waistcoat.cyclic.app/api/movies/` + movieId)
+        fetch(`https://puzzled-pink-snapper.cyclic.app/api/movies/` + movieId)
         .then(res=>res.json()).then((data)=>{
             resolve({props:{movie:data}});
         });
