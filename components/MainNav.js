@@ -13,7 +13,6 @@ export default function MainNav(){
  
   async function handleSearchSubmit(e) {
     e.preventDefault();
-    console.log(searchMovie);
     let title = searchMovie;
     // title = title.replace(/  +/g, " "); // replace multi spaces with one space
     // title = title.trim(); // remove leading and trailing space
