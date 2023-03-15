@@ -2,7 +2,7 @@
 
 This is a simple movie app built using Next.js and React, leveraging the MERN stack (MongoDB, Express, React, and Node.js). The app allows users to search for movies by title and view movie details. The project is hosted on Vercel and can be accessed [here](https://movie-app-rho-ruddy.vercel.app/about).
 
-![Movie App Screenshot](https://raw.githubusercontent.com/f051a0303/Movie-App/main/public/movie-app.png)
+![Movie App Screenshot](https://user-images.githubusercontent.com/103226707/225203178-d83878c5-9059-420b-970f-2e1435d93fed.jpg)
 
 ## Features
 
